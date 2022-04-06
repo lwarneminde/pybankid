@@ -27,7 +27,7 @@ is initiated as such:
 
 .. code-block:: python
 
-    >>> client.authenticate(end_user_ip='194.168.2.25',
+    >>> client.authenticate(end_user_ip='192.168.2.25',
     ...                     personal_number="YYYYMMDDXXXX")
     {
         'orderRef': 'ee3421ea-2096-4000-8130-82648efe0927',
@@ -40,7 +40,7 @@ and a sign order is initiated in a similar fashion:
 
 .. code-block:: python
 
-    >>> client.sign(end_user_ip='194.168.2.25',
+    >>> client.sign(end_user_ip='192.168.2.25',
     ...            user_visible_data="The information to sign.",
     ...            personal_number="YYYYMMDDXXXX")
     {
